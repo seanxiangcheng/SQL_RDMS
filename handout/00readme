@@ -1,0 +1,29 @@
+
+The catalog contain the following definition:
+
+EMP     SSN       I     0   4
+EMP     NAME      C     5   11
+EMP     AGE       I    20   4
+EMP     SALARY    F    24   8
+PROJ    PNUM      C     0   4
+PROJ    PNAME     C     5   21
+WO      SSN       I     0   4
+WO      PNUM      C     4   4
+WO      HRS       I     8   4
+
+------------
+
+If needed, you can re-create the EMP relation using this command:
+
+    mk-datafile  EMP < emp-data
+
+You can also change the data file 'emp-data' (add more tuples ?) to
+create your own test file.
+
+Create the other relations with similar commands.
+
+------------
+
+The file "queries" contains some queries that must pass the test.
+
+
